@@ -1,0 +1,14 @@
+{
+global:
+    kwd_initialize;
+    kwd_put_audio;
+    kwd_deinitialize;
+    kwd_get_start_time;
+    kwd_get_end_time;
+    kwd_get_detection_time;
+    kwd_get_start_margin;
+    kwd_get_power;
+    kwd_get_score;
+local:
+    *;
+};

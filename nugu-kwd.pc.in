@@ -1,0 +1,9 @@
+libdir=@CMAKE_INSTALL_FULL_LIBDIR@
+includedir=@CMAKE_INSTALL_FULL_INCLUDEDIR@/nugu-kwd
+version=@VERSION@
+
+Name: nugu-kwd
+Description: Keyword Detector for NUGU.
+Version: ${version}
+Libs: -L${libdir} -lnugu-kwd
+Cflags: -I${includedir}

@@ -1,0 +1,50 @@
+nugu-kwd (0.9.38ubuntu6~bionic) bionic; urgency=medium
+
+  * fix bugs
+
+ -- nugulinux <nugulinux@gmail.com>  Thu, 2 Apr 2020 13:00:00 +0900
+
+nugu-kwd (0.9.38ubuntu4~bionic) bionic; urgency=medium
+
+  * Support Tizen Platform
+  * Support Linkplay.A98 Platform
+
+ -- nugulinux <nugulinux@gmail.com>  Tue, 31 Mar 2020 11:00:00 +0900
+
+nugu-kwd (0.9.38ubuntu2~bionic) bionic; urgency=medium
+
+  * Wakeup_GetPower() API 추가: multi-wakeup feature
+  * Wakeup_GetScore() API 추가: multi-wakeup feature
+
+ -- nugulinux <nugulinux@gmail.com>  Mon, 16 Mar 2020 12:00:00 +0900
+
+nugu-kwd (0.9.38ubuntu1~bionic) bionic; urgency=medium
+
+  * Wakeup_GetDetectionTime() API 추가 : Wakeup_GetEndTime() + Wakeup_GetDelayTime()
+	* Wakeup_GetStartMargin() 수정: margin이 500ms가 되지 않을 때 해당값으로 return
+
+ -- nugulinux <nugulinux@gmail.com>  Mon, 02 Mar 2020 18:30:00 +0900
+
+nugu-kwd (0.9.36ubuntu2~bionic) bionic; urgency=medium
+
+  * fix bugs
+
+ -- nugulinux <nugulinux@gmail.com>  Thu, 05 Dec 2019 11:40:00 +0900
+
+nugu-kwd (0.9.34ubuntu2~bionic) bionic; urgency=medium
+
+  * change module name from wwd to kwd
+
+ -- nugulinux <nugulinux@gmail.com>  Mon, 14 Oct 2019 19:26:16 +0900
+
+nugu-kwd (0.9.34ubuntu1~bionic) bionic; urgency=medium
+
+  * fix bugs
+
+ -- nugulinux <nugulinux@gmail.com>  Mon, 07 Oct 2019 19:26:16 +0900
+
+nugu-kwd (0.9.31ubuntu1~bionic) bionic; urgency=medium
+
+  * fix version information
+
+ -- nugulinux <nugulinux@gmail.com>  Wed, 07 Aug 2019 19:26:16 +0900
