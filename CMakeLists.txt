@@ -40,5 +40,5 @@ add_subdirectory(src)
 install(DIRECTORY include/ DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/nugu-kwd/)
 
 # Install pkgconfig
-configure_file(nugu-kwd.pc.in ${CMAKE_BINARY_DIR}/nugu-kwd.pc @ONLY)
-install(FILES ${CMAKE_BINARY_DIR}/nugu-kwd.pc DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig/)
+configure_file(nugu-kwd.pc.in ${PROJECT_BINARY_DIR}/nugu-kwd.pc @ONLY)
+install(FILES ${PROJECT_BINARY_DIR}/nugu-kwd.pc DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig/)
