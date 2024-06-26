@@ -1,0 +1,40 @@
+Source: nugu-kwd
+Section: libs
+Priority: optional
+Maintainer: Inho Oh <inho.oh@sk.com>
+Build-Depends: debhelper (>=10),
+	cmake,
+Standards-Version: 4.1.4
+
+Package: libnugu-kwd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wake word detector for NUGU.
+ NUGU OpenSDK
+ .
+ Wake word detector for NUGU.
+ .
+ The libnugu-kwd package provide shared libraries.
+
+Package: libnugu-kwd-dev
+Architecture: any
+Section: libdevel
+Depends: libnugu-kwd, ${misc:Depends}
+Description: Wake word detector for NUGU. (development files)
+ NUGU OpenSDK
+ .
+ Wake word detector for NUGU.
+ .
+ The libnugu-kwd-dev package provide development files.
+
+Package: libnugu-kwd-dbg
+Section: debug
+Priority: optional
+Architecture: any
+Depends: libnugu-kwd (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: Wake word detector for NUGU. (debugging symbols)
+ NUGU OpenSDK
+ .
+ Wake word detector for NUGU.
+ .
+ The libnugu-kwd-dbg package provide debugging symbols.
